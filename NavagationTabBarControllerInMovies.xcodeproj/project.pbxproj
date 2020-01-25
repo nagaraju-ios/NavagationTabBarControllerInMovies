@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1769542B23A4C9C300645182 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1769542A23A4C9C300645182 /* ThirdViewController.swift */; };
+		178BD80723A115700067D6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD80623A115700067D6F7 /* AppDelegate.swift */; };
+		178BD80923A115700067D6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD80823A115700067D6F7 /* SceneDelegate.swift */; };
+		178BD80B23A115700067D6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD80A23A115700067D6F7 /* ViewController.swift */; };
+		178BD80E23A115700067D6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178BD80C23A115700067D6F7 /* Main.storyboard */; };
+		178BD81023A1157A0067D6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178BD80F23A1157A0067D6F7 /* Assets.xcassets */; };
+		178BD81323A1157A0067D6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178BD81123A1157A0067D6F7 /* LaunchScreen.storyboard */; };
+		178BD81E23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD81D23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.swift */; };
+		178BD82923A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD82823A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.swift */; };
+		1799F98623A2126700595F88 /* StructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799F98523A2126700595F88 /* StructFile.swift */; };
+		1799F98823A2340000595F88 /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1799F98723A2340000595F88 /* SCViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		178BD81A23A1157A0067D6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178BD7FB23A115700067D6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178BD80223A115700067D6F7;
+			remoteInfo = NavagationTabBarControllerInMovies;
+		};
+		178BD82523A1157A0067D6F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 178BD7FB23A115700067D6F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 178BD80223A115700067D6F7;
+			remoteInfo = NavagationTabBarControllerInMovies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1769542A23A4C9C300645182 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		178BD80323A115700067D6F7 /* NavagationTabBarControllerInMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavagationTabBarControllerInMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		178BD80623A115700067D6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		178BD80823A115700067D6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		178BD80A23A115700067D6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		178BD80D23A115700067D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		178BD80F23A1157A0067D6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		178BD81223A1157A0067D6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		178BD81423A1157A0067D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178BD81923A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavagationTabBarControllerInMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178BD81D23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavagationTabBarControllerInMoviesTests.swift; sourceTree = "<group>"; };
+		178BD81F23A1157A0067D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178BD82423A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavagationTabBarControllerInMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		178BD82823A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavagationTabBarControllerInMoviesUITests.swift; sourceTree = "<group>"; };
+		178BD82A23A1157A0067D6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1799F98523A2126700595F88 /* StructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFile.swift; sourceTree = "<group>"; };
+		1799F98723A2340000595F88 /* SCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178BD80023A115700067D6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD81623A1157A0067D6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD82123A1157A0067D6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178BD7FA23A115700067D6F7 = {
+			isa = PBXGroup;
+			children = (
+				178BD80523A115700067D6F7 /* NavagationTabBarControllerInMovies */,
+				178BD81C23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests */,
+				178BD82723A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests */,
+				178BD80423A115700067D6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		178BD80423A115700067D6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				178BD80323A115700067D6F7 /* NavagationTabBarControllerInMovies.app */,
+				178BD81923A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.xctest */,
+				178BD82423A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		178BD80523A115700067D6F7 /* NavagationTabBarControllerInMovies */ = {
+			isa = PBXGroup;
+			children = (
+				178BD80623A115700067D6F7 /* AppDelegate.swift */,
+				178BD80823A115700067D6F7 /* SceneDelegate.swift */,
+				178BD80A23A115700067D6F7 /* ViewController.swift */,
+				1799F98723A2340000595F88 /* SCViewController.swift */,
+				1769542A23A4C9C300645182 /* ThirdViewController.swift */,
+				178BD80C23A115700067D6F7 /* Main.storyboard */,
+				178BD80F23A1157A0067D6F7 /* Assets.xcassets */,
+				178BD81123A1157A0067D6F7 /* LaunchScreen.storyboard */,
+				178BD81423A1157A0067D6F7 /* Info.plist */,
+				1799F98523A2126700595F88 /* StructFile.swift */,
+			);
+			path = NavagationTabBarControllerInMovies;
+			sourceTree = "<group>";
+		};
+		178BD81C23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				178BD81D23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.swift */,
+				178BD81F23A1157A0067D6F7 /* Info.plist */,
+			);
+			path = NavagationTabBarControllerInMoviesTests;
+			sourceTree = "<group>";
+		};
+		178BD82723A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				178BD82823A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.swift */,
+				178BD82A23A1157A0067D6F7 /* Info.plist */,
+			);
+			path = NavagationTabBarControllerInMoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		178BD80223A115700067D6F7 /* NavagationTabBarControllerInMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178BD82D23A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMovies" */;
+			buildPhases = (
+				178BD7FF23A115700067D6F7 /* Sources */,
+				178BD80023A115700067D6F7 /* Frameworks */,
+				178BD80123A115700067D6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavagationTabBarControllerInMovies;
+			productName = NavagationTabBarControllerInMovies;
+			productReference = 178BD80323A115700067D6F7 /* NavagationTabBarControllerInMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		178BD81823A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178BD83023A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMoviesTests" */;
+			buildPhases = (
+				178BD81523A1157A0067D6F7 /* Sources */,
+				178BD81623A1157A0067D6F7 /* Frameworks */,
+				178BD81723A1157A0067D6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178BD81B23A1157A0067D6F7 /* PBXTargetDependency */,
+			);
+			name = NavagationTabBarControllerInMoviesTests;
+			productName = NavagationTabBarControllerInMoviesTests;
+			productReference = 178BD81923A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		178BD82323A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178BD83323A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMoviesUITests" */;
+			buildPhases = (
+				178BD82023A1157A0067D6F7 /* Sources */,
+				178BD82123A1157A0067D6F7 /* Frameworks */,
+				178BD82223A1157A0067D6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				178BD82623A1157A0067D6F7 /* PBXTargetDependency */,
+			);
+			name = NavagationTabBarControllerInMoviesUITests;
+			productName = NavagationTabBarControllerInMoviesUITests;
+			productReference = 178BD82423A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		178BD7FB23A115700067D6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "THOTA NAGARAJU";
+				TargetAttributes = {
+					178BD80223A115700067D6F7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					178BD81823A1157A0067D6F7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 178BD80223A115700067D6F7;
+					};
+					178BD82323A1157A0067D6F7 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 178BD80223A115700067D6F7;
+					};
+				};
+			};
+			buildConfigurationList = 178BD7FE23A115700067D6F7 /* Build configuration list for PBXProject "NavagationTabBarControllerInMovies" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 178BD7FA23A115700067D6F7;
+			productRefGroup = 178BD80423A115700067D6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				178BD80223A115700067D6F7 /* NavagationTabBarControllerInMovies */,
+				178BD81823A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests */,
+				178BD82323A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178BD80123A115700067D6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178BD81323A1157A0067D6F7 /* LaunchScreen.storyboard in Resources */,
+				178BD81023A1157A0067D6F7 /* Assets.xcassets in Resources */,
+				178BD80E23A115700067D6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD81723A1157A0067D6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD82223A1157A0067D6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		178BD7FF23A115700067D6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1799F98623A2126700595F88 /* StructFile.swift in Sources */,
+				1799F98823A2340000595F88 /* SCViewController.swift in Sources */,
+				178BD80B23A115700067D6F7 /* ViewController.swift in Sources */,
+				178BD80723A115700067D6F7 /* AppDelegate.swift in Sources */,
+				1769542B23A4C9C300645182 /* ThirdViewController.swift in Sources */,
+				178BD80923A115700067D6F7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD81523A1157A0067D6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178BD81E23A1157A0067D6F7 /* NavagationTabBarControllerInMoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		178BD82023A1157A0067D6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178BD82923A1157A0067D6F7 /* NavagationTabBarControllerInMoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		178BD81B23A1157A0067D6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178BD80223A115700067D6F7 /* NavagationTabBarControllerInMovies */;
+			targetProxy = 178BD81A23A1157A0067D6F7 /* PBXContainerItemProxy */;
+		};
+		178BD82623A1157A0067D6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 178BD80223A115700067D6F7 /* NavagationTabBarControllerInMovies */;
+			targetProxy = 178BD82523A1157A0067D6F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		178BD80C23A115700067D6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178BD80D23A115700067D6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		178BD81123A1157A0067D6F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				178BD81223A1157A0067D6F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		178BD82B23A1157A0067D6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		178BD82C23A1157A0067D6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		178BD82E23A1157A0067D6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		178BD82F23A1157A0067D6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMovies/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMovies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		178BD83123A1157A0067D6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavagationTabBarControllerInMovies.app/NavagationTabBarControllerInMovies";
+			};
+			name = Debug;
+		};
+		178BD83223A1157A0067D6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMoviesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMoviesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavagationTabBarControllerInMovies.app/NavagationTabBarControllerInMovies";
+			};
+			name = Release;
+		};
+		178BD83423A1157A0067D6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavagationTabBarControllerInMovies;
+			};
+			name = Debug;
+		};
+		178BD83523A1157A0067D6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NavagationTabBarControllerInMoviesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nagathota.NavagationTabBarControllerInMoviesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NavagationTabBarControllerInMovies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178BD7FE23A115700067D6F7 /* Build configuration list for PBXProject "NavagationTabBarControllerInMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BD82B23A1157A0067D6F7 /* Debug */,
+				178BD82C23A1157A0067D6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178BD82D23A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BD82E23A1157A0067D6F7 /* Debug */,
+				178BD82F23A1157A0067D6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178BD83023A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BD83123A1157A0067D6F7 /* Debug */,
+				178BD83223A1157A0067D6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		178BD83323A1157A0067D6F7 /* Build configuration list for PBXNativeTarget "NavagationTabBarControllerInMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				178BD83423A1157A0067D6F7 /* Debug */,
+				178BD83523A1157A0067D6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 178BD7FB23A115700067D6F7 /* Project object */;
+}
